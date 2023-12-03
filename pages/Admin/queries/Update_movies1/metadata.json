@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Admin",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -86,7 +86,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Update_movies1",
+  "id": "Admin_Update_movies1",
   "deleted": false,
   "gitSyncId": "656cfecf9fa789003c3bad87_656cff029fa789003c3bad94"
 }

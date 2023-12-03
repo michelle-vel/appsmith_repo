@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "Find_movies1",
+    "name": "Insert_movies1",
     "datasource": {
       "name": "movies",
       "pluginId": "mongo-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Admin",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -31,7 +31,7 @@
           "data": "movies"
         },
         "command": {
-          "data": "FIND"
+          "data": "INSERT"
         },
         "delete": {
           "limit": {
@@ -40,16 +40,18 @@
         },
         "find": {
           "query": {
-            "data": ""
+            "data": "{ \"homepage\": \"https://movies.disney.com/cruella\"}"
           },
           "limit": {
-            "data": "{{Table1.pageSize}}"
+            "data": "10"
           },
           "sort": {
-            "data": "{{ Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}}}"
-          },
-          "skip": {
-            "data": "{{Table1.pageOffset}}"
+            "data": "{\"_id\": 1}"
+          }
+        },
+        "insert": {
+          "documents": {
+            "data": "{{(Table1.newRow || {})}}"
           }
         },
         "smartSubstitution": {
@@ -65,30 +67,21 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.find.skip.data"
-      },
-      {
-        "key": "formData.find.sort.data"
-      },
-      {
-        "key": "formData.find.limit.data"
+        "key": "formData.insert.documents.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
-      "Table1.pageOffset",
-      "Table1.pageSize"
+      "(Table1.newRow || {})"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-03T22:19:44Z"
+    "userPermissions": []
   },
-  "id": "Page1_Find_movies1",
+  "id": "Admin_Insert_movies1",
   "deleted": false,
-  "gitSyncId": "656cfecf9fa789003c3bad87_656cff009fa789003c3bad90"
+  "gitSyncId": "656cfecf9fa789003c3bad87_656cff029fa789003c3bad93"
 }

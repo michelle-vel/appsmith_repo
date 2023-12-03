@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Admin",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -80,7 +80,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-03T22:19:44Z"
   },
-  "id": "Page1_Total_record_movies1",
+  "id": "Admin_Total_record_movies1",
   "deleted": false,
   "gitSyncId": "656cfecf9fa789003c3bad87_656cff009fa789003c3bad8f"
 }
