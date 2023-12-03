@@ -15,6 +15,9 @@
   },
   "color": "#FFEBFB",
   "icon": "saturn",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
