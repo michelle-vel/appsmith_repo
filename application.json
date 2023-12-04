@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home Page",
       "isDefault": true
+    },
+    {
+      "id": "Vendors Details",
+      "isDefault": false
+    },
+    {
+      "id": "Add Menu",
+      "isDefault": false
     }
   ],
   "viewMode": false,
