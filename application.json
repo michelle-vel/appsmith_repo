@@ -15,6 +15,10 @@
     {
       "id": "Place Order",
       "isDefault": false
+    },
+    {
+      "id": "Delete Vendor",
+      "isDefault": false
     }
   ],
   "viewMode": false,
