@@ -16,7 +16,7 @@
     "mobileRightColumn": 29,
     "animateLoading": true,
     "parentColumnSpace": 11.359375,
-    "leftColumn": 45,
+    "leftColumn": 44,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
