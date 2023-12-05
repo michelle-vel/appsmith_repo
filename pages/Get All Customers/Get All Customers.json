@@ -1,35 +1,45 @@
 {
   "unpublishedPage": {
-    "name": "Home Page",
-    "slug": "home-page",
+    "name": "Get All Customers",
+    "slug": "get-all-customers",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1282,
+          "bottomRow": 560,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 72,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Get All Customers_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home Page",
+        "id": "Get All Customers",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cfc7162bb581243f9be8f_656cfc7162bb581243f9be91"
+  "gitSyncId": "656e5b981b57386ab6637809_656e68ba1b57386ab6637836"
 }

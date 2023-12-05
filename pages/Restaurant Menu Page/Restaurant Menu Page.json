@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Home Page",
-    "slug": "home-page",
+    "name": "Restaurant Menu Page",
+    "slug": "restaurant-menu-page",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1282,
+          "bottomRow": 400,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 59,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home Page",
+        "id": "Restaurant Menu Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cfc7162bb581243f9be8f_656cfc7162bb581243f9be91"
+  "gitSyncId": "656d1cbbb36d5f771a61b67a_656e5999d9b99367ba13954f"
 }
