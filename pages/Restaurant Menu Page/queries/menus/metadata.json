@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GettingVendorMenu",
+    "name": "menus",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -60,9 +60,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T18:50:59Z"
+    "createdAt": "2023-12-05T19:58:49Z"
   },
-  "id": "Restaurant Menu Page_GettingVendorMenu",
+  "id": "Restaurant Menu Page_menus",
   "deleted": false,
-  "gitSyncId": "656e5b79d9b99367ba139551_656f7113604ee30ef893e028"
+  "gitSyncId": "656f7655604ee30ef893e06e_656f80f90c28456c6fe84fee"
 }

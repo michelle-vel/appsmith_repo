@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 5,
+    "topRow": 18,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -22,9 +22,9 @@
         {"key": "primaryColumns.VendorType.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 3,
+    "leftColumn": 2,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "defaultSelectedRowIndex": "0",
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
@@ -62,9 +62,10 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701730597249,
+    "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 44,
-    "widgetName": "Table1",
+    "widgetName": "VendorList",
     "defaultPageSize": 0,
     "columnOrder": [
         "CuisineType",
@@ -77,7 +78,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 43,
+    "bottomRow": 61,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -87,7 +88,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "CuisineType": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CuisineType\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CuisineType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CuisineType",
@@ -118,7 +119,7 @@
             "verticalAlignment": "CENTER"
         },
         "VendorName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"VendorName\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"VendorName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "VendorName",
@@ -149,7 +150,7 @@
             "verticalAlignment": "CENTER"
         },
         "Email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Email",
@@ -180,7 +181,7 @@
             "verticalAlignment": "CENTER"
         },
         "Phone": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Phone\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Phone\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Phone",
@@ -211,7 +212,7 @@
             "verticalAlignment": "CENTER"
         },
         "VendorType": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"VendorType\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"VendorType\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "VendorType",
@@ -242,7 +243,7 @@
             "verticalAlignment": "CENTER"
         },
         "VendorID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"VendorID\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"VendorID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "VendorID",
@@ -273,7 +274,7 @@
             "verticalAlignment": "CENTER"
         },
         "EmployeeID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"EmployeeID\"]))}}",
+            "computedValue": "{{VendorList.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"EmployeeID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "EmployeeID",
@@ -304,11 +305,11 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('Restaurant Menu Page', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('Restaurant Menu Page', {\n  \"VendorID\": \"value\"\n}, 'SAME_WINDOW');}}",
     "key": "r7vfqsp0vb",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 43,
+    "rightColumn": 62,
     "textSize": "0.875rem",
     "widgetId": "hkxnnjnz2e",
     "minWidth": 450,
@@ -321,6 +322,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 19,
     "mobileLeftColumn": 4,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
