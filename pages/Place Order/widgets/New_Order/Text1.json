@@ -28,7 +28,7 @@
     "text": "Please Place Order Here",
     "key": "phbihy3mxx",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 59,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "c6aps55fp2",
@@ -50,7 +50,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 12,
+    "originalBottomRow": 21,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
