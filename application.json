@@ -23,6 +23,10 @@
     {
       "id": "Pending Orders",
       "isDefault": false
+    },
+    {
+      "id": "Pending Orders Copy",
+      "isDefault": false
     }
   ],
   "viewMode": false,
