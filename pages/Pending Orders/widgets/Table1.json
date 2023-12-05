@@ -246,7 +246,7 @@
     "textSize": "0.875rem",
     "widgetId": "cw3tb23qlr",
     "minWidth": 450,
-    "tableData": "{{View_Pending_Orders.data}}",
+    "tableData": "{{ViewPendingOrders.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
