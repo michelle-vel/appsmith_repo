@@ -5,11 +5,15 @@
       "isDefault": true
     },
     {
-      "id": "Vendors Details",
+      "id": "Update Vendor Details",
       "isDefault": false
     },
     {
-      "id": "Add Menu",
+      "id": "Menu Items",
+      "isDefault": false
+    },
+    {
+      "id": "Place Order",
       "isDefault": false
     }
   ],
@@ -24,7 +28,7 @@
   "color": "#FFEBFB",
   "icon": "saturn",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

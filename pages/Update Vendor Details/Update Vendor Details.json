@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Vendors Details",
-    "slug": "vendors-details",
+    "name": "Update Vendor Details",
+    "slug": "update-vendor-details",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 470,
+          "bottomRow": 650,
           "containerStyle": "none",
           "snapRows": 63,
           "parentRowSpace": 1,
@@ -25,10 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Update Vendor Details_Vendor_Admin_Details",
+              "name": "Vendor_Admin_Details",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Vendors Details",
+        "id": "Update Vendor Details",
         "deleted": false,
         "policies": [],
         "userPermissions": []

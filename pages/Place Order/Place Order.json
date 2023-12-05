@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Add Menu",
-    "slug": "add-menu",
+    "name": "Place Order",
+    "slug": "place-order",
     "layouts": [
       {
         "viewMode": false,
@@ -13,22 +13,33 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 460,
+          "bottomRow": 790,
           "containerStyle": "none",
-          "snapRows": 63,
+          "snapRows": 53,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 650,
+          "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Place Order_MenuDetails",
+              "name": "MenuDetails",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Add Menu",
+        "id": "Place Order",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d028e9fa789003c3bad9d_656d0a4f9fa789003c3badab"
+  "gitSyncId": "656d028e9fa789003c3bad9d_656e189d2e4e3274d9ace6d0"
 }
