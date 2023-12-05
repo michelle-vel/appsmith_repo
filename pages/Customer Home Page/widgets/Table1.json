@@ -304,7 +304,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('Restaurant Menu Page', {}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{showModal('Modal1');}}",
     "key": "r7vfqsp0vb",
     "canFreezeColumn": true,
     "isDeprecated": false,
