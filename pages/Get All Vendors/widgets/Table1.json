@@ -22,7 +22,7 @@
         {"key": "primaryColumns.VendorType.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 13,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -61,18 +61,19 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701734858472,
+    "columnUpdatedAt": 1701816696775,
+    "originalBottomRow": 54,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 38,
     "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [
+        "VendorID",
+        "VendorName",
         "CuisineType",
         "Email",
         "EmployeeID",
         "Phone",
-        "VendorID",
-        "VendorName",
         "VendorType"
     ],
     "dynamicPropertyPathList": [],
@@ -328,7 +329,7 @@
     "key": "hcz3wlw98g",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "mptmnmvt8v",
     "minWidth": 450,
@@ -341,6 +342,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 11,
     "mobileLeftColumn": 13,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

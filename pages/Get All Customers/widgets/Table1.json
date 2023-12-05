@@ -20,7 +20,7 @@
         {"key": "primaryColumns.Phone.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 12,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -60,6 +60,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701734790263,
+    "originalBottomRow": 57,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 45,
     "widgetName": "Table1",
@@ -241,7 +242,7 @@
     "key": "hcz3wlw98g",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "8iyr1mz3lh",
     "minWidth": 450,
@@ -254,6 +255,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 9,
     "mobileLeftColumn": 13,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
