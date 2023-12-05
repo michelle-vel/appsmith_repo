@@ -19,6 +19,34 @@
     {
       "id": "Restaurant Menu Page",
       "isDefault": false
+    },
+    {
+      "id": "Employee Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Add a customer",
+      "isDefault": false
+    },
+    {
+      "id": "Add a vendor",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Customer Page",
+      "isDefault": false
+    },
+    {
+      "id": "Delete Vendor Page",
+      "isDefault": false
+    },
+    {
+      "id": "Get All Customers",
+      "isDefault": false
+    },
+    {
+      "id": "Get All Vendors",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 23,
     "widgetName": "Admin_Page_Button",
+    "onClick": "{{navigateTo('Employee Home Page', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -18,8 +19,8 @@
     "mobileRightColumn": 36,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 23,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -28,7 +29,7 @@
     "isDisabled": false,
     "key": "woiezhnfnl",
     "isDeprecated": false,
-    "rightColumn": 39,
+    "rightColumn": 40,
     "isDefaultClickDisabled": true,
     "widgetId": "ye5nkr367j",
     "minWidth": 120,

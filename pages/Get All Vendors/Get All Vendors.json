@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Customer Home Page",
-    "slug": "customer-home-page",
+    "name": "Get All Vendors",
+    "slug": "get-all-vendors",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 430,
+          "bottomRow": 530,
           "containerStyle": "none",
-          "snapRows": 59,
+          "snapRows": 72,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 610,
+          "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Customer Home Page_GettingAllVendors",
-              "name": "GettingAllVendors",
+              "id": "Get All Vendors_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customer Home Page",
+        "id": "Get All Vendors",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d1cbbb36d5f771a61b67a_656e57fad9b99367ba139548"
+  "gitSyncId": "656e5b981b57386ab6637809_656e69051b57386ab6637839"
 }
