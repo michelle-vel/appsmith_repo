@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "List of All Vendors",
+    "text": "List of all Vendors",
     "key": "suq3jzl7ez",
     "isDeprecated": false,
     "rightColumn": 39,

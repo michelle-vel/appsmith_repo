@@ -305,7 +305,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('Restaurant Menu Page', {\n  \"VendorID\": \"value\"\n}, 'SAME_WINDOW');}}",
+    "onRowSelected": "{{navigateTo('Place Order', {}, 'SAME_WINDOW');}}",
     "key": "r7vfqsp0vb",
     "canFreezeColumn": true,
     "isDeprecated": false,

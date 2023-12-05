@@ -78,7 +78,7 @@
     "textSize": "0.875rem",
     "widgetId": "lrg5odex1b",
     "minWidth": 450,
-    "tableData": "{{GettingMenus.data}}",
+    "tableData": "{{Api1.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

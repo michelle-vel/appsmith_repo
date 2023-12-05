@@ -21,7 +21,7 @@
         {"key": "primaryColumns.Price.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -276,7 +276,7 @@
     "key": "7lan3q0o87",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 63,
     "textSize": "0.875rem",
     "widgetId": "9zd81eiimi",
     "minWidth": 450,
