@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Update Vendor Details",
-    "slug": "update-vendor-details",
+    "name": "Vendor Info",
+    "slug": "vendor-info",
     "layouts": [
       {
         "viewMode": false,
@@ -13,33 +13,22 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 63,
+          "snapRows": 72,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 650,
+          "minHeight": 740,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Update Vendor Details_Vendor_Admin_Details",
-              "name": "Vendor_Admin_Details",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Update Vendor Details",
+        "id": "Vendor Info",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656d028e9fa789003c3bad9d_656d073a9fa789003c3bada6"
+  "gitSyncId": "656fa9fc097d254e13c675ae_656faa0b097d254e13c675db"
 }

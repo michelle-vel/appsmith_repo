@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 39,
-    "bottomRow": 46,
+    "bottomRow": 44,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Directions for Vendor: Please find you Vendor's name and appropriately fill the matching EmployeeID and VendorID in your \"Update Vendor Details\" form. ",
+    "text": "Directions for Vendor: Please find your Vendor's name and appropriately fill the matching EmployeeID and VendorID in your \"Update Vendor Details\" form. ",
     "key": "phbihy3mxx",
     "isDeprecated": false,
     "rightColumn": 39,

@@ -51,6 +51,10 @@
     {
       "id": "Get All Vendors",
       "isDefault": false
+    },
+    {
+      "id": "Vendor Info",
+      "isDefault": false
     }
   ],
   "viewMode": false,
