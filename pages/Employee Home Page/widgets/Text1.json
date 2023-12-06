@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 19,
+    "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Husky Eatz Employee Home Page",
     "key": "suq3jzl7ez",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 43,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "icfiuy5ajb",
