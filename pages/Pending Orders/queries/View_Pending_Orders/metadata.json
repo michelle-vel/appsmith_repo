@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/o/orders/pending/1"
+        "url": "web:4000/o/orders/pending/22"
       },
       "invalids": [],
       "messages": [],
