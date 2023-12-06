@@ -59,6 +59,10 @@
     {
       "id": "Pending Orders",
       "isDefault": false
+    },
+    {
+      "id": "Customer Info",
+      "isDefault": false
     }
   ],
   "viewMode": false,
