@@ -60,7 +60,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701827764116,
+    "columnUpdatedAt": 1701827807207,
     "originalBottomRow": 39,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 38,
@@ -70,9 +70,9 @@
         "VendorID",
         "OrderID",
         "CustomerID",
-        "DeliveryPersonID",
         "DeliveryDate",
-        "TotalSale"
+        "TotalSale",
+        "DeliveryPersonID"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -136,7 +136,7 @@
             "allowCellWrapping": false,
             "index": 4,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "VendorID",
             "columnType": "number",
             "thousandSeparator": true,
