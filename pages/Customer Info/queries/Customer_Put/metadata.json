@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Customer_Location_Put",
+    "name": "Customer_Put",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/customers/location"
+        "url": "web:4000/c/customers"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Customer",
+    "pageId": "Customer Info",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Update_Customer_Location.data}}",
+      "body": "{{Update_Customer.data}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -56,15 +56,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Update_Customer_Location.data"
+      "Update_Customer.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T23:35:24Z"
+    "createdAt": "2023-12-03T22:48:28Z"
   },
-  "id": "Customer_Customer_Location_Put",
+  "id": "Customer Info_Customer_Put",
   "deleted": false,
-  "gitSyncId": "656d05bc9dfe7d7ca8a98fdd_656e623c16eb7c4c54b87c06"
+  "gitSyncId": "656cfecf9fa789003c3bad87_656d00799fa789003c3bad99"
 }

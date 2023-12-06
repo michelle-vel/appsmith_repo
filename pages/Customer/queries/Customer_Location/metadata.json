@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Customer_Location_Put",
+    "name": "Customer_Location",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Update_Customer_Location.data}}",
+      "body": "{{{\"Street\" : \"\",\n\"City\" : \"\",\n\"State\" : \"\",\n\"ZipCode\" : 0}\n}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -40,31 +40,28 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
-      },
-      {
-        "key": "path"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Update_Customer_Location.data"
+      "{\"Street\" : \"\",\n\"City\" : \"\",\n\"State\" : \"\",\n\"ZipCode\" : 0}\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T23:35:24Z"
+    "createdAt": "2023-12-05T20:12:45Z"
   },
-  "id": "Customer_Customer_Location_Put",
+  "id": "Customer_Customer_Location",
   "deleted": false,
-  "gitSyncId": "656d05bc9dfe7d7ca8a98fdd_656e623c16eb7c4c54b87c06"
+  "gitSyncId": "656d05bc9dfe7d7ca8a98fdd_656f843d74d68d41f9268566"
 }

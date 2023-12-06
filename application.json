@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "Customers",
+      "id": "Customer_2",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Info",
       "isDefault": false
     }
   ],

@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Customer",
-    "slug": "customer",
+    "name": "Customer Info",
+    "slug": "customer-info",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1920,
+          "bottomRow": 550,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 66,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customer",
+        "id": "Customer Info",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -37,8 +36,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cfc7162bb581243f9be8f_656cfc7162bb581243f9be91"
+  "gitSyncId": "656d05bc9dfe7d7ca8a98fdd_656fb944bc9ab95c25924bae"
 }
