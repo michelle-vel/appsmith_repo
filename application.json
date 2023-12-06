@@ -63,6 +63,10 @@
     {
       "id": "Customer Info",
       "isDefault": false
+    },
+    {
+      "id": "Customer Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
