@@ -13,6 +13,7 @@
     ],
     "labelStyle": "",
     "inputType": "TEXT",
+    "placeholderText": "",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",
